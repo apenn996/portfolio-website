@@ -1,0 +1,142 @@
+:root {}
+.theme-light {
+    --main-color: #ede7de;
+    --glass-color: hsla(0, 0%, 100%, .3);
+    --border-color: rgba(44, 44,44, 0.125);
+    --opposite-color: #2c2c2c;
+    --text-color: #000000;
+    --alttext-color: #034eff;
+    --secondary-color: #f3db79;
+    --block1-color: #EFD345;
+    --block2-color: #BABD42;
+    --lightest: #1DB6C4;
+    --light: #54B6BF;
+    --dark: #0A4045;
+    --darkest: #083438;
+    --block1-color: #A5D5FF;
+    --block2-color: #9EFFA4;
+    --block3-color: #FFE397;
+    --block4-color: #FFB4B0;
+    --main-color-gradient: linear-gradient( to bottom, hsla(36, 31%, 90%, 0) 0%, hsla(36, 31%, 90%, .013) 9.7%, hsla(36, 31%, 90%, .049) 18.1%, hsla(36, 31%, 90%, .104) 25.5%, hsla(36, 31%, 90%, .175) 31.9%, hsla(36, 31%, 90%, .259) 37.7%, hsla(36, 31%, 90%, .352) 43%, hsla(36, 31%, 90%, .45) 47.9%, hsla(36, 31%, 90%, .55) 52.8%, hsla(36, 31%, 90%, .648) 57.7%, hsla(36, 31%, 90%, .741) 63%, hsla(36, 31%, 90%, .825) 68.7%, hsla(36, 31%, 90%, .896) 75%, hsla(36, 31%, 90%, .951) 82.2%, hsla(36, 31%, 90%, .987) 90.5%, hsl(36, 31%, 90%) 100% );
+}
+.theme-dark {
+    --main-color: black;
+    /*--main-color: #082F33;*/
+    --border-color:rgba(255, 255, 255, 0.125) ;
+    --glass-color: rgba(10, 64, 69,0.6);
+    --opposite-color: #147B85;
+    --text-color: #55D4E0;
+    --alttext-color: #C8F9FA;
+    --secondary-color: #74439f;
+    --block1-color: #7D5555;
+    --block2-color: #80526D;
+    --block3-color: #534182;
+    --block4-color: #3F1D38;
+    --main-color-gradient: linear-gradient( to bottom, 
+    hsla(185.581, 73%, 12%, 0) 0%, 
+    hsla(185.581, 73%, 12%, .013) 9.7%, 
+    hsla(185.581, 73%, 12%, .049) 18.1%, 
+    hsla(185.581, 73%, 12%, .104) 25.5%, 
+    hsla(185.581, 73%, 12%, .175) 31.9%, 
+    hsla(185.581, 73%, 12%, .259) 37.7%, 
+    hsla(185.581, 73%, 12%, .352) 43%, 
+    hsla(185.581, 73%, 12%, .45) 47.9%, 
+    hsla(185.581, 73%, 12%, .55) 52.8%, 
+    hsla(185.581, 73%, 12%, .648) 57.7%, 
+    hsla(185.581, 73%, 12%, .741) 63%, 
+    hsla(185.581, 73%, 12%, .825) 68.7%, 
+    hsla(185.581, 73%, 12%, .896) 75%, 
+    hsla(185.581, 73%, 12%, .951) 82.2%, 
+    hsla(185.581, 73%, 12%, .987) 90.5%,
+    hsl(185.581, 73%, 12%) 100% );
+        
+        
+     }
+
+.theme-space {
+    --main-color: black;
+    /*--main-color: #082F33;*/
+    --border-color: rgba(255, 255, 255, 0.125);
+    --glass-color: rgba(10, 64, 69,0.6);
+    --opposite-color: #147B85;
+    --text-color: #55D4E0;
+    --alttext-color: #C8F9FA;
+    --secondary-color: #74439f;
+    --block1-color: #7D5555;
+    --block2-color: #80526D;
+    --block3-color: #534182;
+    --block4-color: #3F1D38;
+    --main-color-gradient: linear-gradient( to bottom, hsla(185.581, 73%, 12%, 0) 0%, hsla(185.581, 73%, 12%, .013) 9.7%, hsla(185.581, 73%, 12%, .049) 18.1%, hsla(185.581, 73%, 12%, .104) 25.5%, hsla(185.581, 73%, 12%, .175) 31.9%, hsla(185.581, 73%, 12%, .259) 37.7%, hsla(185.581, 73%, 12%, .352) 43%, hsla(185.581, 73%, 12%, .45) 47.9%, hsla(185.581, 73%, 12%, .55) 52.8%, hsla(185.581, 73%, 12%, .648) 57.7%, hsla(185.581, 73%, 12%, .741) 63%, hsla(185.581, 73%, 12%, .825) 68.7%, hsla(185.581, 73%, 12%, .896) 75%, hsla(185.581, 73%, 12%, .951) 82.2%, hsla(185.581, 73%, 12%, .987) 90.5%, hsl(185.581, 73%, 12%) 100% );
+}
+
+#ThemeSwapButton {
+            height: 30px;
+            width: 30px;
+            border-radius: 999px;
+            border-style: solid;
+            margin: 0px 0px 0px 0px;
+            border-width: thin;
+            border-color: black;
+            outline: none;
+            background-color: var(--opposite-color);
+           
+            position: relative;
+            appearance: none;
+            transition: .5s;
+           
+        }
+
+#ThemeSwapButton:checked {
+                
+                transform: translateX(-38px);
+        }
+
+#ThemeButtonClose {
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+            border-style: solid;
+            top: 10px;
+            left: 55px;
+            border-width: thin;
+            border-color: black;
+            /*  background-color: white; */
+
+            position: absolute;
+        }
+
+.ThemeSwapTrack {
+            border-radius: 999px;
+            width: 55px;
+            height: 16px;
+            left: 22.5px;
+            top: 16px;
+            background-color: grey;
+            border-style: solid;
+            border-width: thin;
+            opacity: 50%;
+            position: absolute;
+        }
+
+.ThemeSwapContainer {
+            background-color: var(--secondary-color);
+            border-radius: 999px;
+            width: 100px;
+            height: 50px;
+            position: fixed;
+            z-index: 10;
+            right: 60px;
+            bottom: 60px;
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+ .IconHolder {
+            top:10px;
+            left: 55px;
+            position: absolute;
+            height: 30px;
+            width: 30px;
+            
+        }
